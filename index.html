@@ -31,7 +31,7 @@ body{
  #logo{
  	width :350px;
  	height:80px;
-	float: left;
+	float: initial;
 	margin:  15px 0px 0px 80px;
  }
  #social {
@@ -49,28 +49,26 @@ body{
  }
  #sidebar{
 	float: left;
-	width: 275px;
 	height: 100%;
+	width:235px;
  }
- #menu ul {
-	float:left;
-	height: auto;
-	width:200px;
- }
- #menu ul  li {
+
+ #sidebar   li {
 	list-style: none;
 	padding: 5px;
 	text-align : center;
 
  }
- #menu ul li a{
+ #sidebar  li a{
 	background: #CBBB98;
 	color: #4E4F3E;
 	text-decoration: none;
-	padding: 10px 0px;
+	padding: 10px;
 	display: block;
+	width:170px;
+
  }
- #menu ul li a:hover{
+#sidebar  li a:hover{
 	color: #fff;
 }
 #content {
@@ -161,30 +159,29 @@ iframe{
 			</ul>
 		
 	</div> <!-- End of header-->
-	<div id="sidebar">
-		 <div  id="menu">
-		<ul >
-			<li><h2><a href="intro">Intro</a></h2></li>
-			<li><h2><a href="size">Size</a></h2></li>
-			<li><h2><a href="play">Play</a></h2></li>
-			<li><h2><a href="food">Food</a></h2></li>
+	
+		 
+		<ul id="sidebar">
+			<li><h2><a href="#intro">Intro</a></h2></li>
+			<li><h2><a href="#size">Size</a></h2></li>
+			<li><h2><a href="#play">Play</a></h2></li>
+			<li><h2><a href="#food">Food</a></h2></li>
 		 </ul>
 		 
-		</div>
-	</div><!-- End of sidebar-->
+	
 		<div id="content">
 			<h1 id="intro">My Boxer Dog
 			<img src="https://www.w3newbie.com/wp-content/uploads/boxer1.png" width="400" height="250" alt="Boxer Dog" title="Boxer Dog"/></h1>
 			<p>Lorem ipsum dolor sit amet libero quis lorem. Donec interdum eu, pulvinar scelerisque. Vestibulum ante ipsum primis in vestibulum nec, sagittis lorem. Praesent scelerisque justo non adipiscing ornare. Nam vestibulum vel, ante. Fusce iaculis, turpis a urna. Nullam magna in turpis id mollis orci. Cum sociis natoque penatibus et gravida wisi diam turpis ligula, in posuere cubilia Curae, Phasellus dui tellus, fringilla ligula accumsan rutrum, urna felis, feugiat eget, euismod id, congue ac, eleifend et, tincidunt est iaculis suscipit. Suspendisse quis arcu</p>
-			<a class="top" href="#top">Go to the top!</a>
+			<a href="#top">Go to the top!</a>
 			<h1 id="size">Size
 			<img src="https://www.w3newbie.com/wp-content/uploads/boxer2.png" width="350" height="200" alt="Boxer Dog" title="Boxer Dog"/></h1>
 			<p>Lorem ipsum dolor sit amet libero quis lorem. Donec interdum eu, pulvinar scelerisque. Vestibulum ante ipsum primis in vestibulum nec, sagittis lorem. Praesent scelerisque justo non adipiscing ornare. Nam vestibulum vel, ante. Fusce iaculis, turpis a urna. Nullam magna in turpis id mollis orci. Cum sociis natoque penatibus et gravida wisi diam turpis ligula, in posuere cubilia Curae, Phasellus dui tellus, fringilla ligula accumsan rutrum, urna felis, feugiat eget, euismod id, congue ac, eleifend et, tincidunt est iaculis suscipit. Suspendisse quis arcu</p>
-			<a class="top" href="#top">Go to the top!</a>
+			<a href="#top">Go to the top!</a>
 			<h1 id="play">Play
 			<img src="https://www.w3newbie.com/wp-content/uploads/boxer3.png" width="430" height="260" alt="Boxer Dog" title="Boxer Dog"/></h1>
 			<p>Lorem ipsum dolor sit amet libero quis lorem. Donec interdum eu, pulvinar scelerisque. Vestibulum ante ipsum primis in vestibulum nec, sagittis lorem. Praesent scelerisque justo non adipiscing ornare. Nam vestibulum vel, ante. Fusce iaculis, turpis a urna. Nullam magna in turpis id mollis orci. Cum sociis natoque penatibus et gravida wisi diam turpis ligula, in posuere cubilia Curae, Phasellus dui tellus, fringilla ligula accumsan rutrum, urna felis, feugiat eget, euismod id, congue ac, eleifend et, tincidunt est iaculis suscipit. Suspendisse quis arcu</p>
-			<a class="top" href="#top">Go to the Top</a>
+			<a href="#top">Go to the Top</a>
 			<h1 id="food">Food</h1>
 			
 			<p>Lorem ipsum dolor sit amet libero quis lorem. Donec interdum eu, pulvinar scelerisque. Vestibulum ante ipsum primis in vestibulum nec, sagittis lorem. Praesent scelerisque justo non adipiscing ornare. Nam vestibulum vel, ante. Fusce iaculis, turpis a urna. Nullam magna in turpis id mollis orci. </p>
@@ -211,7 +208,7 @@ iframe{
 				</tr>
 				</table>
 				<iframe  src="https://www.youtube.com/embed/GF60Iuh643I"  allowfullscreen></iframe><br>
-				<a class="top" href="#top">Go to the top!</a>
+				<a href="#top">Go to the top!</a>
 
 
 
